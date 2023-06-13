@@ -1,0 +1,52 @@
+#Sidebar
+ul {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  width: 207px;
+  height: 759px;
+  top: 73px;
+  left: 0px;
+} 
+
+li a {
+  display: block;
+  background-color: #FA644B;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #210601;
+}
+
+#Footer {
+    list-style-type: square;
+    width: 1000px;
+}
+
+.header {
+    background: #FA644B;
+    position: absolute;
+    width: 1280px;
+    height: 69px;
+    top: 0px;
+    left: 0px;
+}
+
+#logo {
+    position: absolute;
+    top: 21px;
+    left: 32px;
+}
+
+.container {
+    position: absolute;
+    top: 18px;
+    left: 1038px;
+}
+
+#search {
+    position: absolute;
+    width: 425px;
+    height: 33px;
+    top: 18px;
+    left: 208px;
+}
