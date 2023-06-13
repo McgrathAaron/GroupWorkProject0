@@ -1,20 +1,33 @@
-#Sidebar
-ul {
-  list-style-type: none;
-  margin: 0;
-  position: absolute;
-  width: 207px;
-  height: 759px;
-  top: 73px;
-  left: 0px;
-} 
+#Sidebar {
+position: absolute;
+width: 207px;
+height: 557px;
+left: 0px;
+top: 70px;
 
-li a {
-  display: block;
-  background-color: #FA644B;
-  font-size: 16px;
-  line-height: 19.36px;
-  color: #210601;
+background: linear-gradient(180.01deg, #FA644B 0.01%, #6AA4A3 74.8%);
+}
+
+#Sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Sidebar li {
+    margin-bottom: 5px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+
+#Sidebar a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EDEDED;
 }
 
 #Footer {
@@ -23,12 +36,13 @@ li a {
 }
 
 .header {
-    background: #FA644B;
     position: absolute;
     width: 1280px;
     height: 69px;
-    top: 0px;
     left: 0px;
+    top: 0px;
+    
+    background: #FA644B;
 }
 
 #logo {
@@ -40,13 +54,58 @@ li a {
 .container {
     position: absolute;
     top: 18px;
-    left: 1038px;
+    left: 1100px;
+    outline: none !important;
 }
+
+.container .log {
+    position: absolute;
+    width: 94px;
+    height: 33px;
+    left: 0;
+    top: 0;
+    background: #EDEDED;
+    border-radius: 16.5px;
+}
+
+.container .reg {
+    position: absolute;
+    width: 94px;
+    height: 33px;
+    left: 104px;
+    top: 0;
+    background: #EDEDED;
+    border-radius: 16.5px;
+    display: none;
+}
+
 
 #search {
     position: absolute;
     width: 425px;
     height: 33px;
-    top: 18px;
     left: 208px;
+    top: 18px;
+    background: #EDEDED;
+    border-radius: 16.5px;
+}
+
+#search input[type="search"] {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 16.5px;
+    background: transparent;
+    color: #000000;
+    font-size: 14px;
+    outline: none;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
 }
