@@ -62,12 +62,6 @@ background: linear-gradient(180.01deg, #FA644B 0.01%, #6AA4A3 74.8%);
     background-color: #EDEDED;
 }
 
-#user {
-    position: absolute;
-    top: 22px;
-    left: 1280px;
-}
-
 .button1 {
     position: absolute;
     width: 74.08px;
