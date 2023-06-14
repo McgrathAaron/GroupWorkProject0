@@ -1,7 +1,7 @@
 #Sidebar {
 position: absolute;
 width: 207px;
-height: 557px;
+height: 762px;
 left: 0px;
 top: 70px;
 
@@ -31,13 +31,21 @@ background: linear-gradient(180.01deg, #FA644B 0.01%, #6AA4A3 74.8%);
 }
 
 #Footer {
-    list-style-type: square;
-    width: 1000px;
+    list-style-type: none;
+    position: absolute;
+    width: 167px;
+    height: 93px;
+    top: 625px;
+    left: 0px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 13px;
 }
 
 .header {
     position: absolute;
-    width: 1280px;
+    width: 1440px;
     height: 69px;
     left: 0px;
     top: 0px;
@@ -45,46 +53,88 @@ background: linear-gradient(180.01deg, #FA644B 0.01%, #6AA4A3 74.8%);
     background: #FA644B;
 }
 
-#logo {
+#infopanel {
     position: absolute;
-    top: 21px;
-    left: 32px;
+    width: 1075px;
+    height: 40px;
+    top: 84px;
+    left: 271px;
+    background-color: #EDEDED;
 }
 
-.container {
+.button1 {
     position: absolute;
-    top: 18px;
-    left: 1100px;
-    outline: none !important;
+    width: 74.08px;
+    height: 33px;
+    top: 87px;
+    left: 100px;
+    left: 22.97%;
+    right: 71.24%;
+    top: 10.46%;
+    bottom: 85.58%;
+    background-color: #6AA4A3;
+    border-radius: 16.5px;
+}
+
+.button2 {
+    position: absolute;
+    width: 74.08px;
+    height: 33px;
+    top: 87px;
+    left: 180px;
+    left: 30.39%;
+    right: 63.82%;
+    top: 10.46%;
+    bottom: 85.58%;
+    background-color: #EDEDED;
+    border-radius: 16.5px;
+}
+
+.button3 {
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    top: 88px;
+    left: 260px;
+    left: 37.58%;
+    right: 54.61%;
+    top: 10.58%;
+    bottom: 85.46%;
+    background-color: #EDEDED;
+    border-radius: 16.5px;
+}
+
+#logo {
+    position: absolute;
+    top: 14px;
+    left: 14px;
 }
 
 .container .log {
     position: absolute;
-    width: 94px;
-    height: 33px;
-    left: 0;
-    top: 0;
+    width: 96px;
+    height: 34px;
+    left: 1180px;
+    top: 16px;
     background: #EDEDED;
     border-radius: 16.5px;
 }
 
 .container .reg {
     position: absolute;
-    width: 94px;
-    height: 33px;
-    left: 104px;
-    top: 0;
+    width: 96px;
+    height: 34px;
+    left: 32px;
+    top: 650px;
     background: #EDEDED;
     border-radius: 16.5px;
-    display: none;
 }
-
 
 #search {
     position: absolute;
     width: 425px;
     height: 33px;
-    left: 208px;
+    left: 271px;
     top: 18px;
     background: #EDEDED;
     border-radius: 16.5px;
@@ -101,6 +151,7 @@ background: linear-gradient(180.01deg, #FA644B 0.01%, #6AA4A3 74.8%);
     font-size: 14px;
     outline: none;
 }
+
 .search-icon {
     position: absolute;
     top: 50%;
